@@ -7,7 +7,7 @@ project(WORDMACHINE
 message(STATUS "3AL ALLAH ELTASAHEL")
 
 set(CMAKE_CXX_STANDARD "14")
-set(CXXFLAGS="$CFLAGS -Wall")
+set(CXXFLAGS="$CFLAGS -Wall --format=binary -ggdb")
 
 set(TARGET wordmachine)
 find_package(Boost)
