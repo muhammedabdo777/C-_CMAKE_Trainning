@@ -29,4 +29,4 @@ if(NOT Boost_FOUND)
 endif()
 target_link_libraries(${TARGET} ${Boost_LIBRARIES})
 				
-
+add_subdirectory(wordStrategy)
